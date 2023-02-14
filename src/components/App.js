@@ -10,14 +10,14 @@ const Join = (props) =>{
   )
 }
 
-// const App = () => {
+const App = () => {
 
-//   return (
-//     <div id="main">
-//       <Join  />
-//     </div>
-//   )
-// }
+  return (
+    <div id="main">
+      <Join  />
+    </div>
+  )
+}
 
 
 export default App;
