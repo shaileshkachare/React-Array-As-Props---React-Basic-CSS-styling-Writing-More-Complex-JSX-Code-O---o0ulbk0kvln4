@@ -5,17 +5,19 @@ const Join = (props) =>{
   return(
     <div id ="join">
       {/* Access prop 'words' and print it using .join like words.join(',')*/}
+      {arr.join(',')}
     </div>
   )
 }
-const App = () => {
 
-  return (
-    <div id="main">
-      <Join  />
-    </div>
-  )
-}
+// const App = () => {
+
+//   return (
+//     <div id="main">
+//       <Join  />
+//     </div>
+//   )
+// }
 
 
 export default App;
